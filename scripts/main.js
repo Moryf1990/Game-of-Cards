@@ -1,4 +1,4 @@
-//Part 1
+//Part 1 -1
 function PlayingCard(value, suit) {
     this.value = value || 'ace'
     this.suit = suit || 'spades'
@@ -11,12 +11,21 @@ var yourSuit = prompt('What suit is your card?');
 console.log('Your card is the '+yourValue+' of '+yourSuit+'.');
 
 
+
+
+
+
+
+// Part1 - 2
 function PlayingCards(suit, value) {
     this.suit = suit;
     this.value = value;
 }
 var myPlayingCards = new PlayingCards('hearts', '10');
 console.log(myPlayingCards);
+
+
+
 
 
 
@@ -41,6 +50,8 @@ function GamblingDie() {
 
 var myDie = new GamblingDie();
 myDie.roll();
+
+
 
 
 
